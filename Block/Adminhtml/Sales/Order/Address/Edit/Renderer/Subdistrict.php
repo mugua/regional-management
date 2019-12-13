@@ -14,7 +14,7 @@ use Stableaddon\RegionalManagement\Helper\Data;
  *
  * @package Stableaddon\RegionalManagement\Block\Adminhtml\Sales\Order\Address\Edit\Renderer
  */
-class Subdistrict extends AbstractBlock implements Renderer\RendererInterface
+class Subdistrict extends AbstractBlock implements RendererInterface
 {
     /**
      * @var \Magento\Directory\Helper\Data
