@@ -35,7 +35,7 @@ class SubDistrict extends \Magento\Eav\Model\Entity\Attribute\Source\Table
      *
      * @return array
      */
-    public function getAllOptions()
+    public function getAllOptions($withEmpty = true, $defaultValues = false)
     {
         if (!$this->_options) {
             $this->_options = $this->_createRegionsCollection()->load()->toOptionArray();
